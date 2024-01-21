@@ -14,7 +14,7 @@ public class Triangle {
 		// Checks if the sum of two sides of the triangle are bigger than the 3rd side.
 		boolean Flag = NumD > NumC;
 		//Prints the answer.
-		System.out.println("The conclousion that the numbers" + NumA + " " + NumB + " " + NumC);
+		System.out.println("The conclousion that the numbers" + NumA + " " + NumB + " " + NumC +" can form a triangle" );
 		System.out.println("is: " + Flag);
 		
 	}
