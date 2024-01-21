@@ -4,6 +4,13 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		//Creates a new variable and inputs the first input into it
+		int coins = Integer.parseInt(args[0]);
+		// Checks for the numbers of quarters needed
+		int quarters = coins/25;
+		//Checks the number of cents needed
+		int cents = coins - (quarters*25);
+		// Prints the output
+		System.out.println("Use " + quarters + " quarters and " + cents + " cents");
 	}
 }
