@@ -3,7 +3,7 @@
  * This is known as the Triangle Inequality Theorem. 
  * Write a program that tests if three given integers form a triangle.
  */ 
-public class Triangle {
+public class Test1 {
 	public static void main(String[] args) {
 		// Creates 3 variables, and inserts the input into them.
 		int NumA = Integer.parseInt(args[0]);
@@ -14,8 +14,6 @@ public class Triangle {
 		// Checks if the sum of two sides of the triangle are bigger than the 3rd side.
 		boolean Flag = NumD > NumC;
 		//Prints the answer.
-		System.out.println("The conclousion that the numbers" + NumA + " " + NumB + " " + NumC +" can form a triangle" );
-		System.out.println("is: " + Flag);
-		
+		System.out.println(NumA + ", " + NumB + ", " + NumC + ": " + Flag);
 	}
 }
